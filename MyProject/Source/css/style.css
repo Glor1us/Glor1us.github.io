@@ -273,9 +273,8 @@ body{
     padding-bottom: 15px;
 }
 .title_container4{
-    background: url(../img/fotka.png) 0% 263px no-repeat;
+    /*background: url(../img/fotka.png) 0% 263px no-repeat;*/
     width: 1140px;
-    margin: auto;       
     height: 1266px;
 }
 .title_container4 h3{
@@ -309,7 +308,6 @@ body{
     font-weight: bold;
 }
 .title_container4 ul{
-    margin-top: 630px;
     margin-left: -20px;
     float: left;
 }
@@ -689,11 +687,17 @@ footer p6{
     .title_container6 li{
     padding-right: 58px;
     padding-left: 58px;
-}
     }
 }
+
 @media (max-width:400px) {
-    .title_container6 li{
+    .title_container6 {
         display: none;
+    }
+    .title_container7 {
+        margin-top: 500px;
+    }
+    .title_container8 {
+    margin-top: 1100px;
     }
 }
