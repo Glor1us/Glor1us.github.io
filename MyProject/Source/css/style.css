@@ -433,6 +433,12 @@ body {
     border-radius: 7px;
 }
 
+.sum {
+  display: flex;
+  justify-content: space-between;
+    width: 890px;
+}
+
 .title_container5 {
     float: left;
     width: 980px;
