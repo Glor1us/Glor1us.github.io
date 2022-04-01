@@ -371,6 +371,9 @@ body {
     opacity: 1;
     transition: 0.3s;
 }
+.black {
+    background-color: black;
+}
 .title_container4 p1 {
     font-size: 16px;
     letter-spacing: -1px;
@@ -571,13 +574,16 @@ body {
 }
 
 .title_container7 img {
-    padding-bottom: 32px;
+    position: absolute;
+    left: 50%;
+    margin-left: -43px;
 }
 
 .title_container7 p {
     padding-bottom: 38px;
     font-size: 16px;
     color: #243042;
+    padding-top: 130px;
 }
 
 .title_container7 p1 {
