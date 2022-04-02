@@ -46,6 +46,9 @@
         visibility: hidden;
     }
 }*/
+html {
+    overflow-x: hidden;
+}
 nav {
     background: #344051;
     width: 100%;
@@ -190,7 +193,7 @@ body {
 }
 
 .title_container2 img {
-    padding-left: 276px;
+    margin-left: 276px;
     padding-bottom: 25px;
 }
 
@@ -437,9 +440,10 @@ body {
 }
 
 .sum {
-  display: flex;
-  justify-content: space-between;
     width: 890px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .title_container5 {
@@ -450,7 +454,35 @@ body {
     left: 50%;
     margin-left: -460px;
 }
-
+.line{
+    border-bottom: 2px solid gray;
+    margin-top: 30px;
+}
+.modal{
+    ///////////////////////////////
+}
+.gray{
+    color: black;
+    background-color: aliceblue;
+    width: 100%;
+    height: 30px;
+}
+.send_button{
+    margin: 20px 0;
+}
+.sum_type1 {
+    display: flex;
+    justify-content: space-between;
+    width: 890px;
+    flex: 1 0 auto;
+    margin: 20px 0px;
+}
+.sum_type2 {
+    display: flex;
+    justify-content: space-between;
+    width: 890px;
+    flex: 1 0 auto;
+}
 .title_container5 h3 {
     padding-left: 270px;
     font-size: 40px;
@@ -484,7 +516,7 @@ body {
     left: 50%;
     margin-left: -690px;
     width: 1380px;
-    padding-top: 109px;
+    padding-top: 60px;
 }
 
 .title_container6 {
@@ -496,7 +528,7 @@ body {
     width: 100%;
     height: 498px;
     background-attachment: fixed;
-    margin-top: 700px;
+    margin-top: 770px;
 }
 
 .title_container6 ul {
@@ -550,7 +582,7 @@ body {
     width: 100%;
     float: left;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 80px;
 }
 
 .title_container7 h3 {
@@ -605,7 +637,7 @@ body {
     text-align: center;
     color: #fff;
     padding-top: 106px;
-    margin-top: 600px;
+    margin-top: 540px;
 }
 
 .title_container8 h3 {
@@ -656,8 +688,7 @@ body {
 }
 
 .title_container8 img {
-    margin-bottom: 16px;
-    padding: 0px 70px 0px 70px
+    margin: 0px 70px 16px 70px;
 }
 
 .title_container8 p1 {
@@ -762,6 +793,12 @@ body {
     padding-top: 40px;
 }
 
+.map{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+}
+
 footer {
     width: 100%;
     height: 100px;
@@ -775,6 +812,7 @@ footer p6 {
     margin-left: -151px;
     color: #fff;
 }
+
 
 @media (max-width: 1200px) {
     .fon {
