@@ -111,11 +111,34 @@ $('a[href^="#"]').click(function(){
 })
 
 
+//MaskedInput
+$("#phone").mask("+7(999) 999-9999");
 
+// ЗДЕСЬ НЕ ПОЛУЧИЛОСЬ ЗАПРОСИТЬ ОБЯЗАТЕЛЬНОЕ ЗАПОЛНЕНИЕ
+/*
+$('form').submit(function(){
+    if ($('#phone').val() == "" || $('#mail').val() == ""){
+        alert("NOPE");
+    }
+})
+*/
 
+//Подсветка якорных точек
+$(window).scroll(() =>{
+    let scrollDistance = $(window).scrollTop();
+    
+    $('.section').each((i, el) => {
 
-
-
+        if($(el).offset().top - $(".menu").outerHeight() - 100 <= scrollDistance){
+            $(".menu a").each((e, el) => {
+                if ($(el).hasClass("active_menu")){
+                    $(el).removeClass("active_menu");
+                }
+            });
+            $('.menu li:eq('+ i +')').find('a').addClass('active_menu');
+        }
+    });
+});
 
 
 
